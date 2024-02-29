@@ -1,0 +1,83 @@
+.wrapper{
+    background-color:hsl(30, 38%, 92%);
+    height: 150vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    width: 35%;
+    height: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left{
+    width: 50%;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 104%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wordsA{
+    color:  hsl(228, 12%, 48%);
+    font-size: 14px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.wordsB{
+padding-bottom: 30px;
+padding-right: 90px;
+padding-left: 20px;
+}
+.paragraph{
+font-family: Fraunces;
+padding-left: 20px;
+}
+.image{
+
+}
+.button{
+width: 80%;
+padding: 20px;
+border:none;
+outline:none;
+color: white;
+background-color:  hsl(158, 36%, 37%);
+border-radius: 5px;
+}
+.YJ{
+    color: gray;
+}
+.XJ{
+    color:  hsl(158, 36%, 37%);
+}
+.JG{
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap: 32px;
+width: 90%;
+padding-block: 2rem;
+}
